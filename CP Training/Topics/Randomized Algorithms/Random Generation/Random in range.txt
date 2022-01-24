@@ -1,0 +1,13 @@
+RANDOM NUMBER Generation:
+
+srand(time(0));
+
+num = (rand() % (upper – lower + 1)) + lower
+
+https://www.geeksforgeeks.org/rand-and-srand-in-ccpp/
+
+https://www.geeksforgeeks.org/generating-random-number-range-c/
+
+http://www.cplusplus.com/reference/cstdlib/rand/
+
+https://en.wikipedia.org/wiki/Random_number_generation

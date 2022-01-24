@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<!-- saved from url=(0031)https://www.jjj.de/fxt/#fxtbook -->
+<html><style type="text/css" id="night-mode-pro-style"></style><link type="text/css" rel="stylesheet" id="night-mode-pro-link"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15">
+<meta name="author" content="Joerg Arndt">
+<meta name="keywords" content="Algorithms, fast Fourier transform, FXT, convolution, ugly, useful, fxtpage">
+<meta name="description" content="The fxt library of algorithms and the fxtbook">
+<meta name="robots" content="index,follow">
+<meta name="generator" content="GNU Emacs">
+
+<meta http-equiv="content-language" content="en">
+<!--<link rel="shortcut icon" href="/favicon.ico">-->
+<link rel="icon" href="https://www.jjj.de/favicon.png">
+<!-- this href="http://www.jjj.de/fxt/fxtpage.html" -->
+<title>jj's useful and ugly FXT page</title>
+</head>
+
+<body bgcolor="#fffff0" text="#000000">
+
+<hr noshade=""><!-- ================================== -->
+<h1 align="center">
+<font color="#ff0020">FXT: a library of algorithms</font>
+</h1>
+
+
+<hr noshade=""><!-- ================================== -->
+Here you find
+<ul>
+  <li>the <a href="https://www.jjj.de/fxt/#fxt">FXT library</a>
+  </li><li>the fxtbook: <a href="https://www.jjj.de/fxt/#fxtbook">"Matters Computational"</a>
+    (was: "Algorithms for Programmers")
+  </li><li>the amorphous FFT bucket moved to the <a href="https://www.jjj.de/fft/fftpage.html">fftpage</a>
+</li></ul>
+
+
+
+<hr noshade=""><!-- ================================== -->
+<a name="fxt"></a>
+<h3 align="center"><font color="#00a020">The FXT library</font></h3>
+
+<b>Download the latest FXT version</b>:
+<!--<A HREF="fxt-2017.10.29.tgz">fxt-2017.10.29.tgz</A>-->
+<a href="https://www.jjj.de/fxt/fxt-2018.07.03.tar.gz">fxt-2018.07.03.tar.gz</a>
+(approx. 1800kB), distributed under the GPL.
+<p>
+
+
+FXT is a library of low-level algorithms.
+Its main focus is on
+bit-manipulations,
+combinatorial generation,
+and fast transforms.
+The library is accompanied by the <a href="https://www.jjj.de/fxt/#fxtbook">fxtbook</a>.
+A strong emphasis is on performance and many of the routines
+are among the fastest available.
+<br>
+Much of the <b>bit-magic</b> is shown on the
+<a href="https://www.jjj.de/bitwizardry/bitwizardrypage.html">bit wizardry</a> page,
+demo programs are listed <a href="https://www.jjj.de/fxt/demo/bits/index.html">here</a>
+and the documentation is <a href="https://www.jjj.de/fxt/doc/bits-doc.txt">here</a>.
+The routines about binary polynomials and arithmetic over GF(2^n)
+are documented in <a href="https://www.jjj.de/fxt/doc/bpol-doc.txt">bpol-doc.txt</a>
+and the demos are <a href="https://www.jjj.de/fxt/demo/gf2n/index.html">here</a>.
+<br>
+The routines about <b>combinatorial generation</b>
+for
+combinations,
+subsets,
+compositions,
+integer partitions,
+set partitions,
+permutations,
+arrangements,
+mixed radix numbers,
+multi sets (subsets and permutations),
+Catalan objects and Dyck words,
+necklaces and Lyndon words,
+ascent sequences,
+Cayley permutations,
+Young tableaux,
+Motzkin paths,
+various restricted growths strings (RGS),
+and many other types of objects
+are documented <a href="https://www.jjj.de/fxt/doc/comb-doc.txt">here</a>
+and the demos are <a href="https://www.jjj.de/fxt/demo/comb/index.html">here</a>,
+Fred Lunnon's routine for n-dimensional Hilbert curves
+is documented <a href="https://www.jjj.de/fxt/doc/wfl-hilbert-doc.txt">here</a>
+<br>
+The files documenting the <b>fast transforms</b> are as follows:
+<a href="https://www.jjj.de/fxt/doc/fft-doc.txt">fast Fourier transforms (FFTs)</a>,
+<a href="https://www.jjj.de/fxt/doc/realfft-doc.txt">real valued FFTs</a>,
+<a href="https://www.jjj.de/fxt/doc/fht-doc.txt">fast Hartley transforms</a>,
+<a href="https://www.jjj.de/fxt/doc/convolution-doc.txt">convolutions</a>,
+<a href="https://www.jjj.de/fxt/doc/correlation-doc.txt">correlations</a>,
+<a href="https://www.jjj.de/fxt/doc/dctdst-doc.txt">cosine and sine transforms</a>,
+<a href="https://www.jjj.de/fxt/doc/walsh-doc.txt">Walsh transforms</a>,
+<a href="https://www.jjj.de/fxt/doc/haar-doc.txt">Haar transforms</a>,
+and
+<a href="https://www.jjj.de/fxt/doc/ntt-doc.txt">number theoretic transforms (NTTs)</a>.
+</p><p>
+
+The complete list of <a href="https://www.jjj.de/fxt/demo/00main.html">demos</a>
+contains about 500 programs, listed by topic.
+</p><p>
+
+Here is a short description, the Linux Software Map (LSM) file
+<a href="https://www.jjj.de/fxt/fxt.lsm">fxt.lsm</a>
+</p><p>
+
+Complete list of generated documentation:
+<br><a href="https://www.jjj.de/fxt/doc/bits-doc.txt">bits-doc.txt</a> bit wizardry
+<br><a href="https://www.jjj.de/fxt/doc/bpol-doc.txt">bpol-doc.txt</a> binary polynomials and arithmetic over GF(2**n)
+<br><a href="https://www.jjj.de/fxt/doc/comb-doc.txt">comb-doc.txt</a> combinatorics (combinations, partitions etc.)
+<br><a href="https://www.jjj.de/fxt/doc/ds-doc.txt">ds-doc.txt</a> data structures (FIFO, heap etc.)
+<br><a href="https://www.jjj.de/fxt/doc/fft-doc.txt">fft-doc.txt</a> fast Fourier transforms
+<!--<br><A HREF="doc/stupid-bot-doc.txt">stupid-bot-doc.txt</A> gotcha -->
+<br><a href="https://www.jjj.de/fxt/doc/realfft-doc.txt">realfft-doc.txt</a> real valued FFTs
+<br><a href="https://www.jjj.de/fxt/doc/fht-doc.txt">fht-doc.txt</a> fast Hartley transforms
+<br><a href="https://www.jjj.de/fxt/doc/convolution-doc.txt">convolution-doc.txt</a> convolution
+<br><a href="https://www.jjj.de/fxt/doc/correlation-doc.txt">correlation-doc.txt</a> correlation
+<br><a href="https://www.jjj.de/fxt/doc/dctdst-doc.txt">dctdst-doc.txt</a> cosine and sine transforms
+<br><a href="https://www.jjj.de/fxt/doc/walsh-doc.txt">walsh-doc.txt</a> Walsh transforms
+<br><a href="https://www.jjj.de/fxt/doc/haar-doc.txt">haar-doc.txt</a> Haar transforms
+<br><a href="https://www.jjj.de/fxt/doc/mod-doc.txt">mod-doc.txt</a> modular arithmetics and number theory
+<br><a href="https://www.jjj.de/fxt/doc/ntt-doc.txt">ntt-doc.txt</a> number theoretic transforms
+<br><a href="https://www.jjj.de/fxt/doc/perm-doc.txt">perm-doc.txt</a> permutations
+<br><a href="https://www.jjj.de/fxt/doc/sort-doc.txt">sort-doc.txt</a> sorting and searching
+<br><a href="https://www.jjj.de/fxt/doc/aux0-doc.txt">aux0-doc.txt</a> auxiliary routines
+<br><a href="https://www.jjj.de/fxt/doc/aux1-doc.txt">aux1-doc.txt</a> auxiliary routines for 1-dim arrays
+<br><a href="https://www.jjj.de/fxt/doc/aux2-doc.txt">aux2-doc.txt</a> auxiliary routines for 2-dim arrays
+
+<br><a href="https://www.jjj.de/fxt/doc/data-doc.txt">data-doc.txt</a> tables of mathematical data.
+The tables can be accessed via the <a href="https://www.jjj.de/mathdata/">mathdata</a> page.
+
+<br> An <a href="https://www.jjj.de/fxt/doc/index.html">index</a> of all docs
+</p><p>
+
+
+</p><hr noshade=""><!-- ================================== -->
+<a name="fxtbook"></a>
+<h3 align="center"><font color="#00a020">The fxtbook: "Matters Computational"</font></h3>
+
+This is the book "Matters Computational" (formerly titled "Algorithms for Programmers"),
+published with Springer.
+<!--I will put a remark here as soon as the printed version is available.-->
+The electronic version of this book is identical to the printed version.
+NOTE: It will always stay online for free anonymous download.
+<!--Your feedback is appreciated.  Note that you can copy and paste from the dvi and the pdf.-->
+<!--Please give the draft version, the date given at the bottom of (almost) all pages,-->
+<!--with your feedback!-->
+<p>
+
+
+The table of contents as text file (generated from dvi):
+<a href="https://www.jjj.de/fxt/fxtbook-toc.txt">fxtbook-toc.txt</a>.
+<br>
+Short table of contents, giving an quick overview:
+<a href="https://www.jjj.de/fxt/fxtbook-toc-short.txt">fxtbook-toc-short.txt</a>.
+<br>
+The change log: <a href="https://www.jjj.de/fxt/fxtbook-changes.txt">fxtbook-changes.txt</a>.
+<br>
+<a href="https://www.jjj.de/fxt/fxtbook.dvi.gz">fxtbook.dvi.gz</a> (dvi, about 1400kB).
+<br>
+<a href="https://www.jjj.de/fxt/fxtbook.ps.gz">fxtbook.ps.gz</a> (postscript, about 2100kB).
+<br>
+<a href="https://www.jjj.de/fxt/fxtbook.pdf.gz">fxtbook.pdf.gz</a> (pdf, about 3200kB).
+<!--BOOKLASTMOD--><br>Last update:  2010-September-07 (17:53)
+<br>
+<a href="https://www.jjj.de/fxt/fxtbook.pdf">fxtbook.pdf</a> (UNCOMPRESSED pdf, about 5200kB).
+<br>
+</p><p>
+
+
+The list of errata: <a href="https://www.jjj.de/fxt/fxtbook-errata.txt">fxtbook-errata.txt</a>.
+</p><p>
+
+
+
+The index as text file (generated from dvi):
+<a href="https://www.jjj.de/fxt/fxtbook-idx.txt">fxtbook-idx.txt</a>.
+<br>
+List of referenced integer sequences from the On-Line Encyclopedia of Integer Sequences
+(<a href="http://oeis.org/?blank=1">OEIS</a>)
+ as text file (generated from dvi):
+<a href="https://www.jjj.de/fxt/fxtbook-oeisref.txt">fxtbook-oeisref.txt</a>.
+</p><p>
+
+If you want to set a link to the fxtbook please use
+http://www.jjj.de/fxt/#fxtbook instead of directly
+linking to one of the files (e.g. fxtbook.pdf).
+
+</p><p>
+
+
+</p><hr noshade=""><!-- ================================== -->
+
+
+Your
+<a href="https://www.jjj.de/joerg.html#contact">feedback</a>
+is appreciated.
+
+<br>
+<address>jj (Jörg Arndt)</address>
+
+<!--LASTMOD--><br>Last modified 2018-July-03 (12:41)
+
+<hr noshade=""><!-- ================================== -->
+Goto
+<a href="https://www.jjj.de/joerg.html">jj's ugly Homepage</a>
+
+
+
+
+</body></html>

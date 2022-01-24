@@ -1,0 +1,4 @@
+Discrete Math (Rosen) - chap: 6 & 8;
+The Art & Craft of Problem Solving (Paul Zeitz) - chap: 6;
+Basics of Combinatorics - https://www.topcoder.com/community/competitive-programming/tutorials/basics-of-combinatorics/
+BACS camp'17 - https://www.youtube.com/watch?v=FuPM7OhGda0&index=4&list=PLWtSipmftM8q_CPhQ2lLeiG81advwlk6g

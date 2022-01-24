@@ -1,0 +1,45 @@
+//Primality test fermets theorem
+
+int PW(int a, int n, int p)
+{
+    int res = 1;
+    a = a % p;
+
+    while (n > 0)
+    {
+
+        if (n & 1)
+            res = (res*a) % p;
+
+
+        n = n>>1;
+        a = (a*a) % p;
+    }
+    return res;
+}
+
+int isPrime( int x)
+{
+   int z=3;
+   if (x <= 1 || x == 4)  return 0;
+   if (x <= 3) return 1;
+
+   while (z>0)
+   {
+       int a = 2 + rand()%(x-4);
+
+       if (PW(a, x-1, x) != 1)
+          return 0;
+
+       z--;
+    }
+
+    return 1;
+}
+int main()
+{
+	int n;
+	cin>>n;
+        cout<<isPrime(n);
+	
+}
