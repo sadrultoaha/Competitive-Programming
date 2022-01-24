@@ -1,3 +1,11 @@
+/**
+    Author: SunWalker.
+    Status:
+    pType :
+    sln   :
+**/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -43,23 +51,13 @@ struct debugger {
 int main()
 {
     fastread;
-    int n, guestColor,hostColor,count=0;
-    int host[200];
-    int guest[200];
-    vector<int> hostColors;
-    mem(host,0);
-    mem(guest,0);
-    cin>>n;
-    FOR(i,n)
+
+    set<int>s;
+    FOR(i,4)
     {
-        cin>>hostColor>>guestColor;
-        if(host[hostColor]==0){hostColors.pb(hostColor);}
-        guest[guestColor]++;
-        host[hostColor]++;
+        int x;
+        cin>>x;
+        s.insert(x);
     }
-    FOR(i,hostColors.size())
-    {
-        count+= host[hostColors[i]] * guest[hostColors[i]];
-    }
-    cout<<count<<"\n";
+    cout<<4-s.size();
 }

@@ -51,19 +51,13 @@ struct debugger {
 int main()
 {
     fastread;
-    //read;
-    //write;
-
-    int price, extra, newPrice;
-    int c=1;
-    cin>>price>>extra;
-    newPrice = price;
-    while(1)
-    {   
-        if(newPrice % 10 == 0){break;}
-        if(((newPrice - extra) % 10 == 0)){break;}
-        newPrice += price;
-        c++; 
+    
+    int k,l,m,n,d,c=0;
+    cin>>k>>l>>m>>n>>d;
+    FOR(j,d)
+    {
+        int i = j+1;
+        if((i%k==0) || (i%l==0) || (i%m==0) || (i%n==0))c++;
     }
     cout<<c<<"\n";
 }
