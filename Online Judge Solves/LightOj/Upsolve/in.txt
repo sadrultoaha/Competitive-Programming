@@ -1,5 +1,2 @@
 4
-bababababa
-pqrs
-madamimadam
-anncbaaababaaa
+2 3 4 1

@@ -1,0 +1,16 @@
+1
+7
+ABCD
+ABCDEFG
+Abcd
+Abcdefg
+Abcdefge
+Abcdefgef
+Bcd
+6
+A
+A
+A
+A
+A
+B
